@@ -6,9 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-def colletion
-  groceries.values
-puts collection.flatten
+  groceries.values.flatten
 end 
 
 
