@@ -17,6 +17,7 @@ contacts.each do |person, data|
     if attribute == :favorite_icecream_flavors
       .delete_if value == "strawberry"
 binding.pry 
+end
 
 
   #remember to return your newly altered contacts hash!
