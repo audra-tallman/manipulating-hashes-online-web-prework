@@ -13,7 +13,6 @@ def first_challenge
     }
   }
 contacts["Freddie Mercury"].delete_if value == "strawberry"
-binding.pry 
 end
 
 
