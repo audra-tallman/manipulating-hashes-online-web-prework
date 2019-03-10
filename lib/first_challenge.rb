@@ -12,7 +12,8 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-contacts["Freddie Mercury"].delete_if value == "strawberry"
+contacts["Freddie Mercury"].delete_if do |value|
+  value == "strawberry"
 end
 contacts
 end
